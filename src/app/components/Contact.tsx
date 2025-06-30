@@ -242,7 +242,7 @@ export default function Contact() {
               />
             </div>
             <label htmlFor="agree" className="ml-3 text-sm text-gray-700">
-              I agree to be contacted by Dr. Blake's office *
+              I agree to be contacted by Dr. Blake&apos;s office *
             </label>
           </div>
           {errors.agree && (

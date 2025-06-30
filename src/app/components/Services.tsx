@@ -17,17 +17,17 @@ const container = {
   }
 };
 
-const item = {
-  hidden: { y: 20, opacity: 0 },
-  visible: {
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut"
-    }
-  }
-};
+//const item = {
+  //hidden: { y: 20, opacity: 0 },
+  //visible: {
+    //y: 0,
+    //opacity: 1,
+    //transition: {
+      //duration: 0.5,
+      //ease: "easeOut"
+    //}
+  //}
+//};
 
 export default function Services() {
   const services = [

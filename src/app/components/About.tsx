@@ -16,7 +16,7 @@ export default function About() {
         className="text-center mb-12"
       >
         <h2 className="text-3xl md:text-4xl font-light text-gray-900 mb-3">
-          Hello, I'm <span className="font-medium text-gray-900">Dr. Serena</span>
+          Hello, I&apos;m <span className="font-medium text-gray-900">Dr. Serena</span>
         </h2>
         <div className="w-20 h-1.5 bg-blue-200 rounded-full mx-auto"></div>
       </motion.div>
