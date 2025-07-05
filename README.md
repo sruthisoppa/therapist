@@ -1,8 +1,8 @@
 
 # 🧠 Therapist Website: Dr. Serena Blake
 
-Live Demo: [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)  
-GitHub Repo: [https://github.com/your-username/therapist-website](https://github.com/your-username/therapist-website)
+Live Demo: [https://therapist-pi.vercel.app/](https://therapist-pi.vercel.app/)  
+GitHub Repo: [https://github.com/sruthisoppa/therapist](https://github.com/sruthisoppa/therapist)
 
 ## 📌 Overview
 
