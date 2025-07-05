@@ -1,36 +1,160 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+---
 
-## Getting Started
+````md
+# 🧠 Therapist Website: Dr. Serena Blake
 
-First, run the development server:
+Live Demo: [https://your-vercel-link.vercel.app](https://your-vercel-link.vercel.app)  
+GitHub Repo: [https://github.com/your-username/therapist-website](https://github.com/your-username/therapist-website)
+
+## 📌 Overview
+
+This is a mobile-responsive, accessible, and clean therapist website designed for **Dr. Serena Blake, PsyD**, as part of the Grow My Therapy internship assignment. Built using **Next.js 14 (App Router)** and **Tailwind CSS**, the website closely follows the style and structure of the reference design.
+
+All key sections — Hero, About, Services, FAQ, Contact — are implemented based on the provided content and design inspiration from [drjenniferhahm.com](https://www.drjenniferhahm.com).
+
+---
+
+## ✨ Features
+
+- 🎨 Clean, calming, professional UI
+- 📱 Fully responsive for all screen sizes
+- 🧾 Reusable components using modern React + Tailwind patterns
+- 💬 Functional contact form with inline validation and feedback
+- 🧠 AI-assisted assets and copy — human-refined for tone & clarity
+- 🔒 Accessible color contrast and semantic HTML
+
+---
+
+## 🖼️ Sections Implemented
+
+### 🔹 Hero
+- Full-screen intro with calming background and CTA button
+
+### 🔹 About
+- Brief biography, photo, and philosophy of care for Dr. Blake
+
+### 🔹 Services
+- Three focused offerings:
+  - Anxiety & Stress Management
+  - Relationship Counseling
+  - Trauma Recovery
+- Includes supportive imagery and 2–4 line descriptions
+
+### 🔹 Rates
+- Clearly displays fee structure
+- Notes on insurance and reimbursements
+
+### 🔹 Quote
+- Featured inspirational quote with visual emphasis
+
+### 🔹 FAQ
+- Accordion/toggle layout with three questions and answers
+
+### 🔹 Contact
+- Custom form with validation for:
+  - Name
+  - Phone
+  - Email
+  - Message
+  - Preferred time
+  - Agreement checkbox
+- Form submission confirmation UI included
+
+### 🔹 Footer
+- Contact info, hours, and links
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18+)
+- npm or yarn
+
+### Setup Instructions
 
 ```bash
+# Clone the repo
+git clone https://github.com/your-username/therapist-website.git
+cd therapist-website
+
+# Install dependencies
+npm install
+
+# Run locally
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+````
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## 📁 Folder Structure
+
+```
+src/
+├── app/
+│   ├── page.tsx          // Main landing page
+│   ├── components/       // All reusable UI components
+│   │   ├── Hero.tsx
+│   │   ├── About.tsx
+│   │   ├── Services.tsx
+│   │   ├── Rates.tsx
+│   │   ├── FAQ.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Quote.tsx
+│   │   └── Footer.tsx
+├── public/
+│   └── images/           // All static assets used
+├── styles/
+│   └── globals.css       // Tailwind base
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Framework:** [Next.js 14 (App Router)](https://nextjs.org)
+* **Styling:** [Tailwind CSS](https://tailwindcss.com)
+* **Icons:** [React Icons](https://react-icons.github.io)
+* **Deployment:** [Vercel](https://vercel.com)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📸 Submission Preview Video
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* **Loom / Google Drive:** \[Link to 2–3 min video walkthrough]
+  Covers:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+  * Desktop + Mobile views
+  * Services section
+  * Contact form in action
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 💡 AI Usage Declaration
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+AI tools like ChatGPT and Freepik were used to:
+
+* Generate content descriptions for services and FAQs
+* Assist with Tailwind styling suggestions
+* Create placeholder images where necessary
+
+All outputs were **human-reviewed and refined** to meet the project requirements and maintain tone consistency.
+
+---
+
+## 🙏 Acknowledgements
+
+Special thanks to the team at [Grow My Therapy](https://growmytherapy.com) for this meaningful opportunity to contribute to mental health awareness through thoughtful web design.
+
+---
+
+## © 2025 Serena Blake Website
+
+Built with ❤️ for the Grow My Therapy Internship Assignment
+
+```
+
+```
