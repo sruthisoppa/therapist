@@ -126,7 +126,7 @@ export default function Contact() {
               name="name"
               value={formData.name}
               onChange={handleChange}
-              className={`w-full px-4 py-3 border rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all ${
+              className={`w-full px-4 py-3 text-black placeholder-gray-400 border rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all ${
                 errors.name ? 'border-red-300 focus:ring-red-200' : 'border-gray-300'
               }`}
               placeholder="Your name"
@@ -150,7 +150,7 @@ export default function Contact() {
               name="phone"
               value={formData.phone}
               onChange={handleChange}
-              className={`w-full px-4 py-3 border rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all ${
+              className={`w-full px-4 py-3 text-black placeholder-gray-400 border rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all ${
                 errors.phone ? 'border-red-300 focus:ring-red-200' : 'border-gray-300'
               }`}
               placeholder="(123) 456-7890"
@@ -174,7 +174,7 @@ export default function Contact() {
               name="email"
               value={formData.email}
               onChange={handleChange}
-              className={`w-full px-4 py-3 border rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all ${
+              className={`w-full px-4 py-3 text-black placeholder-gray-400 border rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all ${
                 errors.email ? 'border-red-300 focus:ring-red-200' : 'border-gray-300'
               }`}
               placeholder="your@email.com"
@@ -198,7 +198,7 @@ export default function Contact() {
               rows={5}
               value={formData.message}
               onChange={handleChange}
-              className={`w-full px-4 py-3 border rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all ${
+              className={`w-full px-4 py-3 text-black placeholder-gray-400 border rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all ${
                 errors.message ? 'border-red-300 focus:ring-red-200' : 'border-gray-300'
               }`}
               placeholder="Tell us about your needs..."
@@ -222,7 +222,7 @@ export default function Contact() {
               name="preferredTime"
               value={formData.preferredTime}
               onChange={handleChange}
-              className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all"
+              className="w-full px-4 py-3 text-black border placeholder-gray-400 border-gray-300 rounded-lg focus:ring-1 focus:ring-blue-500 focus:border-blue-500 transition-all"
               placeholder="e.g., Weekdays after 5pm"
             />
           </div>
